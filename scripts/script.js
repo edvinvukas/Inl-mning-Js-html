@@ -77,7 +77,7 @@ document.querySelector(".programForm").addEventListener("submit", function (e) {
     const inputBeskrivning = document.getElementById("inputBeskrivning").value;
     const inputÅlder = document.getElementById("inputÅlder").value;
 
-    if (inputÅlder.trim() !=="" && !isNaN(inputÅlder)) {
+    if (inputÅlder.trim() !== "" && !isNaN(inputÅlder)) {
 
         const program = {
             titel: inputTitel,
@@ -103,11 +103,11 @@ const visaProgramButton = document.getElementById("visaProgram");
 visaProgramButton.addEventListener("click", function () {
     const allData = getAllDataFromLocalStorage();
     visaLagrat_filter_rensa(allData);
-    if(allData!=0){
+    if (allData != 0) {
         outputContainer.style.display = "flex";
     }
-    else{
+    else {
         outputContainer.style.display = "none";
     }
-    
+
 });
