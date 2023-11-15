@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STK</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>STK Dina favoriters favoritkanal</h1>
+    </header>
+
+    <form class="programForm" id="form1">
+        <input type="text" id="inputTitel" name="inputTitel" placeholder="Titel">
+        <input type="text" id="inputBeskrivning" name="inputBeskrivning" placeholder="Beskrivning">
+        <input type="text" id="inputÅlder" name="inputÅlder" placeholder="Ålder">
+        <input type="submit" value="Spara" id ="Spara">
+    </form>
+
+    <div id = sök>
+        <input type="text" id="searchInput" name="searchInput" placeholder="Sök på titel eller åldersgräns :)">
+        <button id="searchButton">Sök</button></label>
+    </div>
+
+    <p id="antalProgram">Antal lagrade program är: 0</p>
+
+    <div id="output"></div>
+
+    <button id="rensa">Rensa minnet</button>
+
+    <button id="visaProgram">Visa program</button>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

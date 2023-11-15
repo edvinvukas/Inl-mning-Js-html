@@ -1,0 +1,120 @@
+body {
+
+    background-image: url(/images/bakgrund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+#inputTitel,
+#inputBeskrivning,
+#inputÅlder{
+
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+
+}
+
+#form1 {
+
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: xx-large;
+    margin: 0;
+    padding: 5px;
+
+}
+
+#visaProgram{
+
+    font-size: 70px;
+    background-color: lightgreen;
+    padding: 20px;
+
+}
+
+#antalProgram{
+    
+    font-size: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#Spara{
+
+    background-color: lightgreen;
+    font-size: large;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#searchInput{
+
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: medium;
+}
+
+#searchButton{
+
+    height: 40px;
+    width: 100px;
+    background-color: lightgreen;
+    font-size: medium;
+    
+}
+
+#sök{
+
+    margin-top: 40px;
+
+}
+
+#rensa{
+    
+    background-color: lightgreen;
+    font-size: xx-large;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#output {
+
+    height: 900px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: aliceblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    max-block-size: 100%;
+    margin: 20px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 300px;
+    overflow: auto;
+
+}
